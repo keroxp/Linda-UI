@@ -2,7 +2,15 @@ doctype html
 html
   head
     title= title
+    link(rel="stylesheet", href="/bootstrap/dist/css/bootstrap.min.css")
     link(rel='stylesheet', href='/css/style.css')
   body(onload='init()')
     block content
+    script(src="/jquery/jquery.min.js")
+    script(src="/underscore/underscore.js")
+    script(src="/backbone/backbone.js")
+    script(src="/jcanvas/jcanvas.js")
+    script(src="/bootstrap/dist/js/bootstrap.min.js")
+    script(src="/socket.io/socket.io.js")
+    script(src="/linda/linda-socket.io.js")
     script(src='/js/script.js')

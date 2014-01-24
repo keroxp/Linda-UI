@@ -51,6 +51,8 @@ app = module.exports = ( ->
     app.use express.static path.resolve 'public'
   else
     app.use express.static path.resolve 'dist'
+    app.use express.static path.resolve 'bower_components'
+
   app.use express.errorHandler()
   return app
 )()

@@ -105,15 +105,15 @@ module.exports = (grunt) ->
 
     watch:
       dist:
-        files: [ '**/*.coffee', 'assets/**/*.jade', 'assets/**/*.styl' ]
-        tasks: [ 'test' ]
-      #   files: [ 'assets/*.coffee', 'assets/**/*.coffee']
-      #   tasks: [ 'coffee', 'uglify' ]
-      # jade:
-      #   files: [ 'assets/*.jade', 'assets/**/*.jade' ]
-      #   tasks: [ 'jade' ]
-      # stylus:
-      #   files: [ 'assets/*.styl', 'assets/**/*.styl']
-      #   tasks: [ 'stylus', 'cssmin' ]
+        # files: [ '**/*.coffee', 'assets/**/*.jade', 'assets/**/*.styl' ]
+        # tasks: [ 'test' ]
+        files: [ 'assets/*.coffee', 'assets/**/*.coffee']
+        tasks: [ 'coffee', 'uglify' ]
+      jade:
+        files: [ 'assets/*.jade', 'assets/**/*.jade' ]
+        tasks: [ 'jade' ]
+      stylus:
+        files: [ 'assets/*.styl', 'assets/**/*.styl']
+        tasks: [ 'stylus', 'cssmin' ]
       options:
         interrupt: yes
