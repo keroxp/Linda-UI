@@ -1,0 +1,26 @@
+{
+  "name": "Linda-UI",
+  "version": "0.0.1",
+  "homepage": "https://github.com/keroxp/keroxp/Linda-UI",
+  "authors": [
+    "Yusuke Sakurai <kerokerokerop@gmail.com>"
+  ],
+  "description": "a graphical programming and interface building environment for Linda",
+  "main": "assets/js/main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "flatui": "*",
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2",
+    "jcanvas": "~13.11.21"
+  }
+}
